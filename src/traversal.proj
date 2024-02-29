@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.Build.Traversal">
+	<PropertyGroup>
+		<SlnGenFolders>true</SlnGenFolders>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="**\*.csproj" />
+	</ItemGroup>
+</Project>
